@@ -1,7 +1,6 @@
 # Docs
 
-1. [/docs](/docs/)
-2. blog: https://linianhui.github.io/computer-networking/
+<https://linianhui.github.io/computer-networking>
 
 # Networking [PDU] 
 
@@ -35,9 +34,10 @@ docker run \
        --volume $(pwd):/src \
        --workdir /src \
        --env GIT_COMMIT_SHA=$(git rev-parse --short HEAD) \
-       mcr.microsoft.com/dotnet/core/sdk:3.0-alpine \
+       mcr.microsoft.com/dotnet/core/sdk:3.1-alpine \
        ./cake.sh -target=pack
 ```
+
 
 
 [PDU]:https://en.wikipedia.org/wiki/protocol_data_unit

@@ -1,7 +1,7 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <AssemblyName>Networking.Files.Tests</AssemblyName>
     <RootNamespace>Networking.Files.Tests</RootNamespace>
     <IsPackable>false</IsPackable>
@@ -20,8 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="PcapTests\PcapFileReaderTests\pcap.pcap" />
-    <EmbeddedResource Include="PcapNGTests\PcapNGFileReaderTests\1-shb.11-idb.64-epb.1-nrb.11-isb.pcapng" />
+    <EmbeddedResource Include="PcapTests\PcapPacketReaderTests\pcap.pcap" />
+    <EmbeddedResource Include="PcapNGTests\PcapNGPacketReaderTests\1-shb.11-idb.64-epb.1-nrb.11-isb.pcapng" />
   </ItemGroup>
 
   <ItemGroup>
